@@ -10,4 +10,9 @@ public class controller{
     public String sayMessage(){
         return "Hi, this is ganesh";
     }
+
+    @GetMapping("/save")
+    public String hello(){
+        return "Hey, Youre rocking the";
+    }
 }
